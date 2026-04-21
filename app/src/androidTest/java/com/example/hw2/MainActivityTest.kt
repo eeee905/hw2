@@ -1,6 +1,5 @@
 package com.example.hw2
 
-<<<<<<< HEAD
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.espresso.Espresso.onView
@@ -23,14 +22,15 @@ class MainActivityTest {
     @Test
     fun socialAccount_shouldNotExist() {
         onView(withText("kao_905")).check(doesNotExist())
-    @Test
-    fun image_is_not_displayed_in_landscape() {
-        val scenario = ActivityScenario.launch(MainActivity::class.java)
+        @Test
+        fun image_is_not_displayed_in_landscape() {
+            val scenario = ActivityScenario.launch(MainActivity::class.java)
 
-        scenario.onActivity { activity ->
-            activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+            scenario.onActivity { activity ->
+                activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+            }
+
+            onView(withId(R.id.profileImage)).check(doesNotExist())
         }
-
-        onView(withId(R.id.profileImage)).check(doesNotExist())
     }
 }
