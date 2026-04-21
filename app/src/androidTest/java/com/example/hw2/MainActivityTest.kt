@@ -22,15 +22,15 @@ class MainActivityTest {
     @Test
     fun socialAccount_shouldNotExist() {
         onView(withText("kao_905")).check(doesNotExist())
-        @Test
-        fun image_is_not_displayed_in_landscape() {
-            val scenario = ActivityScenario.launch(MainActivity::class.java)
+    }
+    @Test
+    fun image_is_not_displayed_in_landscape() {
+        val scenario = ActivityScenario.launch(MainActivity::class.java)
 
-            scenario.onActivity { activity ->
-                activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-            }
-
-            onView(withId(R.id.profileImage)).check(doesNotExist())
+        scenario.onActivity { activity ->
+            activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
         }
+
+        onView(withId(R.id.profileImage)).check(doesNotExist())
     }
 }
