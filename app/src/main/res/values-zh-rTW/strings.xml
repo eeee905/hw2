@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">HW2</string>
     <string name="name">Eric</string>
-    <string name="title">Student / Basketball Player</string>
+    <string name="title">學生 / 籃球員</string>
     <string name="phone">0975893473</string>
     <string name="email">kaotzuchi0905@gmail.com</string>
-    <string name="photo_desc">Profile Photo</string>
+    <string name="photo_desc">個人照片</string>
 </resources>
