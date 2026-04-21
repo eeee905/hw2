@@ -1,12 +1,12 @@
 <resources>
-<<<<<<< HEAD
-    <string name="app_name">HW2</string>
+    <string name="app_name">hw2</string>
+    <string name="photo_desc">Profile Photo</string>
     <string name="name">Eric</string>
     <string name="title">Student / Basketball Player</string>
     <string name="phone">0975893473</string>
+    <string name="social" translatable="false">kao_905</string>
     <string name="email">kaotzuchi0905@gmail.com</string>
-    <string name="photo_desc">Profile Photo</string>
-=======
-    <string name="app_name">hw2</string>
->>>>>>> 0534d5d6b4d2879e35beacc3d644c8db2250d97f
+    <string name="phone_icon_desc" translatable="false">Phone icon</string>
+    <string name="social_icon_desc" translatable="false">Social icon</string>
+    <string name="email_icon_desc" translatable="false">Email icon</string>
 </resources>

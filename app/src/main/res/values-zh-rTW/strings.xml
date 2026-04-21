@@ -1,8 +1,12 @@
 <resources>
-    <string name="app_name">HW2</string>
+    <string name="app_name">hw2</string>
+    <string name="photo_desc">個人照片</string>
     <string name="name">Eric</string>
     <string name="title">學生 / 籃球員</string>
     <string name="phone">0975893473</string>
+    <string name="social">kao_905</string>
     <string name="email">kaotzuchi0905@gmail.com</string>
-    <string name="photo_desc">個人照片</string>
+    <string name="phone_icon_desc">電話圖示</string>
+    <string name="social_icon_desc">社群圖示</string>
+    <string name="email_icon_desc">電子郵件圖示</string>
 </resources>

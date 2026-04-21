@@ -6,7 +6,6 @@
     android:background="@android:color/white"
     android:padding="24dp">
 
-    <!-- 中間內容 -->
     <LinearLayout
         android:id="@+id/centerSection"
         android:layout_width="match_parent"
@@ -21,22 +20,14 @@
             android:layout_height="120dp"
             android:src="@drawable/my_photo"
             android:scaleType="centerCrop"
-<<<<<<< HEAD
             android:contentDescription="@string/photo_desc" />
-=======
-            android:contentDescription="個人照片" />
->>>>>>> 0534d5d6b4d2879e35beacc3d644c8db2250d97f
 
         <TextView
             android:id="@+id/tvName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-<<<<<<< HEAD
             android:text="@string/name"
-=======
-            android:text="Eric"
->>>>>>> 0534d5d6b4d2879e35beacc3d644c8db2250d97f
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="@android:color/black" />
@@ -46,16 +37,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-<<<<<<< HEAD
             android:text="@string/title"
-=======
-            android:text="Student / Basketball Player"
->>>>>>> 0534d5d6b4d2879e35beacc3d644c8db2250d97f
             android:textSize="18sp"
             android:textColor="#2E7D32" />
     </LinearLayout>
 
-    <!-- 底部聯絡資訊 -->
     <LinearLayout
         android:id="@+id/contactSection"
         android:layout_width="match_parent"
@@ -63,8 +49,8 @@
         android:orientation="vertical"
         android:layout_marginBottom="24dp">
 
-<<<<<<< HEAD
         <LinearLayout
+            android:id="@+id/phoneRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -72,21 +58,24 @@
             android:padding="8dp">
 
             <ImageView
+                android:id="@+id/phoneIcon"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_call"
-                android:contentDescription="phone icon" />
+                android:contentDescription="@string/phone_icon_desc" />
 
             <TextView
                 android:id="@+id/tvPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0975893473"
+                android:layout_marginStart="12dp"
+                android:text="@string/phone"
                 android:textSize="18sp"
-                android:textColor="@android:color/holo_blue_dark"
-                android:layout_marginStart="12dp"/>
+                android:textColor="@android:color/holo_blue_dark" />
         </LinearLayout>
+
         <LinearLayout
+            android:id="@+id/socialRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -94,22 +83,24 @@
             android:padding="8dp">
 
             <ImageView
+                android:id="@+id/socialIcon"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_share"
-                android:contentDescription="social icon" />
+                android:contentDescription="@string/social_icon_desc" />
 
             <TextView
                 android:id="@+id/tvSocial"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="kao_905"
+                android:layout_marginStart="12dp"
+                android:text="@string/social"
                 android:textSize="18sp"
-                android:textColor="@android:color/black"
-                android:layout_marginStart="12dp"/>
+                android:textColor="@android:color/black" />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/emailRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -117,24 +108,22 @@
             android:padding="8dp">
 
             <ImageView
+                android:id="@+id/emailIcon"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_dialog_email"
-                android:contentDescription="email icon" />
+                android:contentDescription="@string/email_icon_desc" />
 
             <TextView
                 android:id="@+id/tvEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="kaotzuchi0905@gmail.com"
+                android:layout_marginStart="12dp"
+                android:text="@string/email"
                 android:textSize="18sp"
-                android:textColor="@android:color/holo_blue_dark"
-                android:layout_marginStart="12dp"/>
-        </LinearLayout><![CDATA[
-        =======
+                android:textColor="@android:color/holo_blue_dark" />
+        </LinearLayout>
 
-        >>>>>>> 0534d5d6b4d2879e35beacc3d644c8db2250d97f
-    ]]>
     </LinearLayout>
 
 </LinearLayout>
