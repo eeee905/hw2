@@ -1,8 +1,12 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">HW2</string>
     <string name="name">Eric</string>
     <string name="title">Student / Basketball Player</string>
     <string name="phone">0975893473</string>
     <string name="email">kaotzuchi0905@gmail.com</string>
     <string name="photo_desc">Profile Photo</string>
+=======
+    <string name="app_name">hw2</string>
+>>>>>>> 0534d5d6b4d2879e35beacc3d644c8db2250d97f
 </resources>
